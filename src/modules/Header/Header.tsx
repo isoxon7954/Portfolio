@@ -17,7 +17,7 @@ const Header = () => {
           <Image src="/telegram.png" width={70} height={100} alt="" />
           <Image src="/instagram.png" width={70} height={100} alt="" />
         </div>
-        <button className="bg-gray-800 py-4 px-6 mt-4 rounded-2xl active:scale-75">
+        <button className="bg-gray-800 py-4 px-6 mt-4 rounded-b-xl active:scale-75">
           <Link href="/about">About Me</Link>
         </button>
       </div>
