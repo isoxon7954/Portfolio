@@ -1,11 +1,35 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Image from "next/image";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="bg-gray-700 text-white">
       <Navbar />
-      <div className="bg-gray-700 text-white flex justify-center gap-28 py-24">
+      <div>
+        <div className="flex justify-center items-center gap-48 py-24">
+          <div>
+            <Image
+              src="/notebook.jpg"
+              alt=""
+              width={500}
+              height={200}
+              className="rounded"
+            />
+          </div>
+          <div>
+            <h1 className="text-3xl">About my call number !!</h1>
+            <h2 className="text-xl w-[500px] mt-5">
+              We are enjoy met you in our sites can you give your grade for my
+              own portfoliyo site.If you want bind with me you can call with
+              this number. This number is mine. you can call and ask me what you
+              want.
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div className="text-white flex justify-center gap-28 py-24">
         <div className="w-80 h-[600px] shadow-2xl p-5 shadow-white">
           <h1 className="flex items-center gap-5 text-2xl font-semibold mt-4">
             <svg
@@ -66,11 +90,10 @@ const Contact = () => {
             className="w-64 h-8 outline-none text-black pl-4 text-md mt-5 mb-2"
           />
           <h2 className="text-xl">Message</h2>
-          <textarea
-            className="w-64 h-60 outline-none text-black pl-4 text-md mt-5 mb-2"
-          ></textarea>
+          <textarea className="w-64 h-60 outline-none text-black pl-4 text-md mt-5 mb-2"></textarea>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -33,7 +33,7 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <HomeIcon width={25} height={25} color="white" />
+                  <h3 className="text-white text-xl">Isoxon</h3>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

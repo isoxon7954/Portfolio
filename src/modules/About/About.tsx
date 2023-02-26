@@ -1,13 +1,30 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Image from "next/image";
 
 const About = () => {
   return (
     <div>
       <Navbar />
-      <div className="text-white bg-gray-600 h-[91.9vh]">
+      <div className="text-white bg-gray-600">
+        <div>
+          <div className="flex justify-center items-center gap-48 py-24">
+            <div>
+              <Image src="/Hacker.png" alt="" width={500} height={250} className="rounded" />
+            </div>
+            <div>
+              <h1 className="text-3xl">Hello! My name is Mirzayev Isoxon</h1>
+              <h2 className="text-xl w-[500px] mt-5">
+                I'm 16 and I'm in school. In IT, I understand better than in
+                school lessons. I'm interested in cool designs, I try to create
+                the perfect website, I live in Namangan, I will be perfect
+                programmer
+              </h2>
+            </div>
+          </div>
+        </div>
         <h1 className="text-6xl font-medium text-center pt-4">About Me</h1>
-        <div className="mt-5 flex justify-center gap-7">
+        <div className="mt-5 flex justify-center gap-7 pb-6">
           <div>
             <h3 className="text-xl font-medium">
               Birthday:{" "}

@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="bg-gray-700 text-white h-[500px]">
+    <div className="bg-gray-600 text-white h-[500px]">
       <div className="flex justify-center pt-10 gap-5">
         <div className="w-96 h-52 p-5 bg-gray-800 rounded-tl-[20px] rounded-bl-[20px]">
           <h1 className="text-2xl">Making a design system from scratch</h1>
