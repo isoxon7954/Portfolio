@@ -13,9 +13,15 @@ const Header = () => {
           technologies.
         </p>
         <div className="flex justify-center mt-10 gap-4">
-          <Image src="/github.png" width={70} height={100} alt="" />
-          <Image src="/telegram.png" width={70} height={100} alt="" />
-          <Image src="/instagram.png" width={70} height={100} alt="" />
+          <a href="https://github.com/isoxon7954">
+            <Image src="/github.png" width={70} height={100} alt="" />
+          </a>
+          <a href="https://web.telegram.org/k/#@ISOXON_MIRZAYEV">
+            <Image src="/telegram.png" width={70} height={100} alt="" />
+          </a>
+          <a href="https://www.instagram.com/mirzayev_isoxon/">
+            <Image src="/instagram.png" width={70} height={100} alt="" />
+          </a>
         </div>
         <button className="bg-gray-800 py-4 px-6 mt-4 rounded-b-xl active:scale-75">
           <Link href="/about">About Me</Link>

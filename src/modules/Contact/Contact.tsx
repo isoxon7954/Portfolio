@@ -30,7 +30,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="text-white flex justify-center gap-28 py-24">
-        <div className="w-80 h-[600px] shadow-2xl p-5 shadow-white">
+        <div className="w-80 h-[650px] shadow-2xl p-5 shadow-white">
           <h1 className="flex items-center gap-5 text-2xl font-semibold mt-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -73,27 +73,32 @@ const Contact = () => {
           </h1>
           <p className="pt-4">+99890 752 95 02</p>
         </div>
-        <div className="w-80 h-[600px] shadow-2xl p-6 shadow-white">
-          <h2 className="text-xl">Your Name</h2>
-          <input
-            type="text"
-            className="w-64 h-8 outline-none text-black pl-4 text-md mt-5 mb-2"
-          />
-          <h2 className="text-xl">Email</h2>
-          <input
-            type="email"
-            className="w-64 h-8 outline-none text-black pl-4 text-md mt-5 mb-2"
-          />
-          <h2 className="text-xl">Subject</h2>
-          <input
-            type="text"
-            className="w-64 h-8 outline-none text-black pl-4 text-md mt-5 mb-2"
-          />
-          <h2 className="text-xl">Message</h2>
-          <textarea className="w-64 h-60 outline-none text-black pl-4 text-md mt-5 mb-2"></textarea>
+        <div className="w-80 h-[650px] shadow-2xl p-6 shadow-white">
+          <form>
+            <h2 className="text-xl">Your Name</h2>
+            <input
+              type="text"
+              className="w-64 h-8 outline-none text-black pl-4 text-md mt-5 mb-2"
+            />
+            <h2 className="text-xl">Email</h2>
+            <input
+              type="email"
+              className="w-64 h-8 outline-none text-black pl-4 text-md mt-5 mb-2"
+            />
+            <h2 className="text-xl">Subject</h2>
+            <input
+              type="text"
+              className="w-64 h-8 outline-none text-black pl-4 text-md mt-5 mb-2"
+            />
+            <h2 className="text-xl">Message</h2>
+            <textarea className="w-64 h-60 outline-none text-black pl-4 text-md mt-5 mb-2 pt-3"></textarea>
+            <button className="w-36 h-9 bg-gray-800 active:scale-75" type="submit">
+              Submit
+            </button>
+          </form>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
