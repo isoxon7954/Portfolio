@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Image from "next/image";
+import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
@@ -50,6 +51,7 @@ const About = () => {
             </h3>
           </div>
         </div>
+        <Footer/>
       </div>
     </div>
   );
