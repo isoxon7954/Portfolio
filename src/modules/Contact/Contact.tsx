@@ -8,19 +8,19 @@ const Contact = () => {
     <div className="bg-gray-700 text-white">
       <Navbar />
       <div>
-        <div className="flex justify-center items-center gap-48 py-24">
+        <div className="md:flex md:justify-center items-center gap-48 py-24">
           <div>
             <Image
               src="/notebook.jpg"
               alt=""
               width={500}
               height={200}
-              className="rounded"
+              className="rounded hidden lg:block"
             />
           </div>
           <div>
-            <h1 className="text-3xl">About my call number !!</h1>
-            <h2 className="text-xl w-[500px] mt-5">
+            <h1 className="text-xl md:text-3xl">About my call number !!</h1>
+            <h2 className="text-md w-auto md:text-xl md:w-[500px] md:mt-5">
               We are enjoy met you in our sites can you give your grade for my
               own portfoliyo site.If you want bind with me you can call with
               this number. This number is mine. you can call and ask me what you
@@ -29,7 +29,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="text-white flex justify-center gap-28 py-24">
+      <div className="text-white text-center ml-auto md:flex md:justify-center md:gap-28 py-24">
         <div className="w-80 h-[650px] shadow-2xl p-5 shadow-white">
           <h1 className="flex items-center gap-5 text-2xl font-semibold mt-4">
             <svg

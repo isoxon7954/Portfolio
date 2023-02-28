@@ -9,9 +9,9 @@ const About = () => {
       <Navbar />
       <div className="text-white bg-gray-600">
         <div>
-          <div className="flex justify-center items-center gap-48 py-24">
+          <div className="items-center gap-48 py-24 lg:flex lg:justify-center">
             <div>
-              <Image src="/Hacker.png" alt="" width={500} height={250} className="rounded" />
+              <Image src="/Hacker.png" alt="" width={500} height={250} className="rounded hidden lg:block" />
             </div>
             <div>
               <h1 className="text-3xl">Hello! My name is Mirzayev Isoxon</h1>
@@ -24,8 +24,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <h1 className="text-6xl font-medium text-center pt-4">About Me</h1>
-        <div className="mt-5 flex justify-center gap-7 pb-6">
+        <h1 className="text-2xl font-medium text-center pt-4 md:text-6xl">About Me</h1>
+        <div className="mt-5 gap-7 text-center pb-6 md:flex md:text-left md:justify-center">
           <div>
             <h3 className="text-xl font-medium">
               Birthday:{" "}

@@ -1,12 +1,11 @@
-import { Fragment } from "react";
 import { Disclosure } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon, HomeIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "About", href: "/about", current: false },
   { name: "Contact", href: "/contact", current: false },
-  { name: "Projects", href: "/projects  ", current: false },
+  { name: "Projects", href: "/projects", current: false },
 ];
 
 function classNames(...classes: string[]) {

@@ -3,10 +3,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-white pt-8 flex justify-evenly h-[40vh]">
+    <div className="bg-gray-800 text-center text-white pt-8 justify-evenly md:text-left md:h-auto md:flex sm:h-auto">
       <div>
         <h1 className="text-3xl">Isoxon</h1>
-        <p className="w-[500px] text-lg mt-7">
+        <p className="text-lg mt-7 lg:w-[500px] sm:w-[300px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
           animi dolores aperiam ex veniam expedita ipsa porro amet nobis ducimus
           vero, est earum nam nisi odit! Laudantium, nam? Nostrum ullam
@@ -39,14 +39,12 @@ const Footer = () => {
             <a href="https://zesty-conkies-30ffbe.netlify.app/">The Clock</a>
           </li>
           <li className="mt-2">
-            <a href="https://profound-puppy-ffa72d.netlify.app/">
+            <a href="https://quick-summer-game.netlify.app/">
               Quick-summer-game
             </a>
           </li>
           <li className="mt-2">
-            <a href="https://www.tespen.uz">
-              Tespen
-            </a>
+            <a href="https://www.tespen.uz">Tespen</a>
           </li>
         </ul>
       </div>
