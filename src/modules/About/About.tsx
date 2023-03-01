@@ -16,8 +16,8 @@ const About = () => {
             <div>
               <h1 className="text-3xl">Hello! My name is Mirzayev Isoxon</h1>
               <h2 className="text-xl w-[500px] mt-5">
-                I'm 12 and I'm in school. In IT, I understand better than in
-                school lessons. I'm interested in cool designs, I try to create
+                I am 12 and I am in school. In IT, I understand better than in
+                school lessons. I am interested in cool designs, I try to create
                 the perfect website, I live in Namangan, I will be perfect
                 programmer
               </h2>
