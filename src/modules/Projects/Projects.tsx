@@ -9,8 +9,8 @@ const Projects = () => {
       <Navbar />
       <div className="bg-gray-700">
         <div className="text-center">
-          <h1 className="text-white text-5xl pt-4">These are my projects</h1>
-          <p className="text-white text-xl w-[500px] m-auto mt-4">
+          <h1 className="text-white text-xl md:text-5xl pt-4">These are my projects</h1>
+          <p className="text-white text-lg md:text-xl md:w-[500px] m-auto mt-4">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
             cum iste optio, reprehenderit exercitationem voluptatum doloremque
             voluptatem similique commodi voluptate velit vitae tenetur officiis?
@@ -20,42 +20,18 @@ const Projects = () => {
         <h1 className="text-white text-5xl pt-4 text-center pb-8">Projects</h1>
         <div className="flex justify-center gap-10">
           <a href="https://quick-summer-game.netlify.app/">
-            <Image
-              src="/quick-summer-game.png"
-              width={350}
-              height={350}
-              alt=""
-              className="w-[500px] h-80 object-cover rounded"
-            />
+            <h1 className="text-xl text-white mt-12">Quick-summer-game</h1>
           </a>
           <a href="https://zesty-conkies-30ffbe.netlify.app/">
-            <Image
-              src="/clock.png"
-              width={350}
-              height={350}
-              alt=""
-              className="w-[500px] h-80 object-cover rounded"
-            />
+            <h1 className="text-xl text-white mt-12">The Clock</h1>
           </a>
         </div>
         <div className="flex justify-center gap-10 mt-4 pb-8">
-          <a href="https://codepen.io/FlorinPop17/full/jOOPdbE">
-            <Image
-              src="/random.png"
-              width={350}
-              height={350}
-              alt=""
-              className="w-[500px] h-80 object-cover rounded"
-            />
+          <a href="https://unique-sherbet-a17d07.netlify.app/">
+            <h1 className="text-xl text-white mt-12">Slider</h1>
           </a>
-          <a href="https://codepen.io/FlorinPop17/full/QWWarqd">
-            <Image
-              src="/image.png"
-              width={350}
-              height={350}
-              alt=""
-              className="w-[500px] h-80 object-cover rounded"
-            />
+          <a href="https://inspiring-moonbeam-710149.netlify.app/">
+            <h1 className="text-xl text-white mt-12">Calculator</h1>
           </a>
         </div>
       </div>

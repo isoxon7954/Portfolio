@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-gray-800 text-center text-white pt-8 justify-evenly md:text-left md:h-auto md:flex sm:h-auto">
       <div>
         <h1 className="text-3xl">Isoxon</h1>
-        <p className="text-lg mt-7 lg:w-[500px] sm:w-[300px]">
+        <p className="text-lg mt-7 lg:w-[500px] sm:w-[300px] mb-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
           animi dolores aperiam ex veniam expedita ipsa porro amet nobis ducimus
           vero, est earum nam nisi odit! Laudantium, nam? Nostrum ullam

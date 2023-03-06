@@ -14,8 +14,8 @@ const About = () => {
               <Image src="/Hacker.png" alt="" width={500} height={250} className="rounded hidden lg:block" />
             </div>
             <div>
-              <h1 className="text-3xl">Hello! My name is Mirzayev Isoxon</h1>
-              <h2 className="text-xl w-[500px] mt-5">
+              <h1 className="text-xl md:text-3xl">Hello! My name is Mirzayev Isoxon</h1>
+              <h2 className="md:text-xl md:w-[500px] mt-5">
                 I am 12 and I am in school. In IT, I understand better than in
                 school lessons. I am interested in cool designs, I try to create
                 the perfect website, I live in Namangan, I will be perfect
