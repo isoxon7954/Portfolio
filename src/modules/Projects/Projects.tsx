@@ -19,19 +19,19 @@ const Projects = () => {
         </div>
         <h1 className="text-white text-5xl pt-4 text-center pb-8">Projects</h1>
         <div className="flex justify-center gap-10">
-          <a href="https://quick-summer-game.netlify.app/">
-            <h1 className="text-xl text-white mt-12">Quick-summer-game</h1>
+          <a href="https://quick-summer-game.netlify.app/" className="bg-[url('/quick-summer-game.png')] w-96 h-52 bg-cover text-center">
+            <h1 className="text-xl text-white mt-20">Quick-summer-game</h1>
           </a>
-          <a href="https://zesty-conkies-30ffbe.netlify.app/">
-            <h1 className="text-xl text-white mt-12">The Clock</h1>
+          <a href="https://zesty-conkies-30ffbe.netlify.app/" className="bg-[url('/clock.png')] w-96 h-52 bg-cover text-center">
+            <h1 className="text-xl text-white mt-20">The Clock</h1>
           </a>
         </div>
         <div className="flex justify-center gap-10 mt-4 pb-8">
-          <a href="https://unique-sherbet-a17d07.netlify.app/">
-            <h1 className="text-xl text-white mt-12">Slider</h1>
+          <a href="https://unique-sherbet-a17d07.netlify.app/" className="bg-[url('/slider.png')] w-96 h-52 bg-cover text-center">
+            <h1 className="text-xl text-white mt-20">Image Slider</h1>
           </a>
-          <a href="https://inspiring-moonbeam-710149.netlify.app/">
-            <h1 className="text-xl text-white mt-12">Calculator</h1>
+          <a href="https://inspiring-moonbeam-710149.netlify.app/" className="bg-[url('/calculator.png')] w-96 h-52 bg-cover text-center">
+            <h1 className="text-xl text-white mt-20">Calculator</h1>
           </a>
         </div>
       </div>
